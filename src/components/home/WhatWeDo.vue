@@ -41,11 +41,11 @@
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" style="font-size:130%">GDG at Campus</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Share knowledge in your college or university with GDG</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
@@ -53,7 +53,31 @@
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Get to know the latest technology as it is unveiled</p>
+            </v-col>
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+              <v-icon large style="font-size:300%">mdi-memory</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">ML Boot Camps</p>
+              <p
+                  class="google-font"
+                  style="font-size:95%"
+              >Helping build a strong ML community in Sri Lanka</p>
+            </v-col>
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+              <v-icon large style="font-size:300%">mdi-book</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">CodeLanka</p>
+              <p
+                  class="google-font"
+                  style="font-size:95%"
+              >Lets solve tech problems, one line at a time</p>
+            </v-col>
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+              <v-icon large style="font-size:300%">mdi-laptop</v-icon>
+              <p class="google-font mt-2" style="font-size:130%">Study Jams</p>
+              <p
+                  class="google-font"
+                  style="font-size:95%"
+              >Focusing on learning a new technology, together</p>
             </v-col>
           </v-row>
         </v-container>

@@ -295,7 +295,7 @@ let appservice = {
   getAllUpcomingMeetupsEvents: (id) => {
     return new Promise((resolve, reject) => {
       fetch(
-          "https://cors-anywhere.herokuapp.com/https://api.meetup.com/" + id + "/events?&sign=true"
+          "https://api.meetup.com/" + id + "/events?&sign=true"
         ).then(res => res.json()).then(data => {
             resolve({
               success: true,
@@ -334,7 +334,7 @@ let appservice = {
   getAllMeetupPastEvents: (id) => {
     return new Promise((resolve, reject) => {
       fetch(
-          "https://cors-anywhere.herokuapp.com/https://api.meetup.com/" + id + "/events?desc=true&photo-host=public&page=300&status=past&sign=true"
+          "https://api.meetup.com/" + id + "/events?desc=true&photo-host=public&page=300&status=past&sign=true"
         ).then(res => res.json()).then(data => {
             resolve({
               success: true,

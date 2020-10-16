@@ -6,7 +6,7 @@
                     :src="require('@/assets/img/dontremove/about.png')"
                     :lazy-src="require('@/assets/img/dontremove/about.png')"
                     class=" mb-3"
-                    width="100%"
+                    width="50%"
                 >
                     <template v-slot:placeholder>
                         <v-row
